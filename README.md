@@ -78,7 +78,7 @@ Before you begin, ensure you have met the following requirements:
 
 *Example Screenshot of Jenkins Job Configuration:*
 
-![Jenkins Job Configuration 1](images/Jenkins_build_github_push.png)
+![Jenkins Job Configuration 1](images/Jenkins_build_github_push.png) 
 ![Jenkins Job Configuration 2](images/Jenkins_build_user.png)
 
 ### 5. Dockerfile
