@@ -25,7 +25,7 @@ Before you begin, ensure you have met the following requirements:
 *Example Screenshots of EC2 Instance Setup:*
 
 ![EC2 Instance Setup 1](images/EC2_1.jpg)
-![EC2 Instance Setup 2](images/Ec2_security_group .jpg).
+![EC2 Instance Setup 2](images/Ec2_security_group.jpg).
 
 ### 2. Install Jenkins
 1. Update packages:
