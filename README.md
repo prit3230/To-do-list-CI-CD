@@ -24,8 +24,8 @@ Before you begin, ensure you have met the following requirements:
 
 *Example Screenshots of EC2 Instance Setup:*
 
-![EC2 Instance Setup 1](images/EC2_1.png)
-![EC2 Instance Setup 2](images/Ec2_security_group.png)
+![EC2 Instance Setup 1](images/EC2_1.jpg)
+![EC2 Instance Setup 2](images/Ec2_security_group.jpg)
 
 ### 2. Install Jenkins
 1. Update packages:
@@ -78,8 +78,8 @@ Before you begin, ensure you have met the following requirements:
 
 *Example Screenshot of Jenkins Job Configuration:*
 
-![Jenkins Job Configuration 1](images/Jenkins_build_github_push.png) 
-![Jenkins Job Configuration 2](images/Jenkins_build_user.png)
+![Jenkins Job Configuration 1](images/Jenkins_build_github_push.jpg) 
+![Jenkins Job Configuration 2](images/Jenkins_build_user.jpg)
 
 ### 5. Dockerfile
 Create a `Dockerfile` in your project root with the following content:
