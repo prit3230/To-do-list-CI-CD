@@ -1,4 +1,4 @@
-# Dockerized Todo Application with Jenkins CI/CD
+# Jenkins CI/CD Pipeline for To-Do Application
 
 This project demonstrates the deployment of a Dockerized Todo application with an automated CI/CD pipeline using Jenkins, hosted on AWS EC2.
 
@@ -8,11 +8,24 @@ This project demonstrates the deployment of a Dockerized Todo application with a
 - **Implemented Jenkins CI/CD pipeline** for automated build, test, and deployment processes.
 - **Utilized AWS EC2** for hosting Jenkins and Docker.
 
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+- You have an AWS account and are familiar with creating and managing EC2 instances.
+- You have SSH access to your EC2 instance.
+- You have basic knowledge of Docker and Jenkins.
+- Your local machine has Git installed and configured.
+
 ## Steps to Reproduce
 
 ### 1. Create AWS EC2 Instance
 1. Launch an EC2 instance using your preferred settings.
 2. Connect to your instance using SSH.
+
+*Example Screenshots of EC2 Instance Setup:*
+
+![EC2 Instance Setup 1](images/EC2_1.png)
+![EC2 Instance Setup 2](images/Ec2_security_group.png)
 
 ### 2. Install Jenkins
 1. Update packages:
@@ -42,6 +55,7 @@ This project demonstrates the deployment of a Dockerized Todo application with a
     sudo cat /var/lib/jenkins/secrets/initialAdminPassword
     ```
 
+
 ### 3. Install Docker
 1. Install Docker:
     ```sh
@@ -61,6 +75,11 @@ This project demonstrates the deployment of a Dockerized Todo application with a
     docker build -t node-app-todo .
     docker run -d --name node-app-container -p 8000:8000 node-app-todo
     ```
+
+*Example Screenshot of Jenkins Job Configuration:*
+
+![Jenkins Job Configuration 1](images/Jenkins_build_github_push.png)
+![Jenkins Job Configuration 2](images/Jenkins_build_user.png)
 
 ### 5. Dockerfile
 Create a `Dockerfile` in your project root with the following content:
